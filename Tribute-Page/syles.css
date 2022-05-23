@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(38, 38, 109, 0.39);
+  color: #314d00;
+  font-size: 14pt;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35pt;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22pt;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#img-div #image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div #img-caption {
+  text-align: center;
+  margin: 1em 0 0 0;
+  font-size: 12pt;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
+@media (min-width: 800px) {
+  #tribute-info ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #tribute-info ul div {
+    padding: 0 3em;
+  }
+}
+
+blockquote {
+  text-align: center;
+}
+
+#end {
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+#end a {
+  text-decoration: none;
+  color: #1f1d1d;
+}
+/*# sourceMappingURL=syles.css.map */
