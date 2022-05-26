@@ -16,157 +16,165 @@
     </div>
     <div class="forms">
         <form id="survey-form">
-            <div>
-                <label for="name" id="name-label">First Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your first name" required />
+            <div class="your-input">
+                <label for="name" id="name-label">First Name </label>
+                <input class="control" type="text" id="name" name="name" placeholder="Enter your first name" required />
 
             </div>
-            <div>
-                <label for="email" id="email-label">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+            <div class="your-input">
+                <label for="email" id="email-label">Email </label>
+                <input class="control" type="email" id="email" name="email" placeholder="Enter your email" required />
             </div>
-            <div>
-                <label for="number" id="number-label">Age</label>
-                <input type="number" id="number" name="number" placeholder="Enter your age" min="8" max="110" required />
+            <div class="your-input">
+                <label for="number" id="number-label">Age </label>
+                <input class="control" type="number" id="number" name="number" placeholder="Enter your age" min="8" max="110" required />
             </div>
             <div>
                 <p>Who has been your Premier League Player of the Season?</p>
-                <select id="dropdown" name="POTS" required>
-                    <option disabled selected value>Player</option>
-                    <option value="Salah">Mohamed Salah</option>
-                    <option value="KdB">Kevin de Bruyne</option>
-                    <option value="Son">Son Heung-min</option>
-                    <option value="CR7">Cristiano Ronaldo</option>
-                    <option value="Bowen">Jarrod Bowen</option>
-                </select>
+                <div class="all">
+                    <select class="control" id="dropdown" name="POTS" required>
+                        <option disabled selected value>Player</option>
+                        <option value="Salah">Mohamed Salah</option>
+                        <option value="KdB">Kevin de Bruyne</option>
+                        <option value="Son">Son Heung-min</option>
+                        <option value="CR7">Cristiano Ronaldo</option>
+                        <option value="Bowen">Jarrod Bowen</option>
+                    </select>
+                </div>
             </div>
             <div>
                 <p>Who has been your young POTS?</p>
-                <label>
-                    <input id="YPOTS" name="YPOTS" type="radio" value="Saka" />
-                    Bukayo Saka
-                </label>
-                <label>
-                    <input id="YPOTS" name="YPOTS" type="radio" value="Mount" />
-                    Mason Mount
-                </label>
-                <label>
-                    <input id="YPOTS" name="YPOTS" type="radio" value="Foden" />
-                    Phil Foden
-                </label>
-                <label>
-                    <input id="YPOTS" name="YPOTS" type="radio" value="Trent" />
-                    Trent Alexander-Arnold
-                </label>
-                <label>
-                    <input id="YPOTS" name="YPOTS" type="radio" value="Gallagher" />
-                    Conor Gallagher
-                </label>
-                <label>
-                    <input id="YPOTS" name="YPOTS" type="radio" value="Rice" />
-                    Declan Rice
-                </label>
+                <div class="all">
+                    <label>
+                        <input id="YPOTS" name="YPOTS" type="radio" value="Saka" />
+                        Bukayo Saka
+                    </label>
+                    <label>
+                        <input id="YPOTS" name="YPOTS" type="radio" value="Mount" />
+                        Mason Mount
+                    </label>
+                    <label>
+                        <input id="YPOTS" name="YPOTS" type="radio" value="Foden" />
+                        Phil Foden
+                    </label>
+                    <label>
+                        <input id="YPOTS" name="YPOTS" type="radio" value="Trent" />
+                        Trent Alexander-Arnold
+                    </label>
+                    <label>
+                        <input id="YPOTS" name="YPOTS" type="radio" value="Gallagher" />
+                        Conor Gallagher
+                    </label>
+                    <label>
+                        <input id="YPOTS" name="YPOTS" type="radio" value="Rice" />
+                        Declan Rice
+                    </label>
+                </div>
             </div>
             <div>
                 <p>Who has been the biggest flop(transfer) of the season?</p>
-                <select id="dropdown2" name="FOTS" required>
-                    <option disabled selected value>Player</option>
-                    <option value="Grealish">Jack Grealish</option>
-                    <option value="Sancho">Jadon Sancho</option>
-                    <option value="Lukaku">Romelu Lukaku</option>
-                    <option value="White">Ben White</option>
-                </select>
+                <div class="all">
+                    <select class="control" id="dropdown2" name="FOTS" required>
+                        <option disabled selected value>Player</option>
+                        <option value="Grealish">Jack Grealish</option>
+                        <option value="Sancho">Jadon Sancho</option>
+                        <option value="Lukaku">Romelu Lukaku</option>
+                        <option value="White">Ben White</option>
+                    </select>
+                  </div>  
             </div>
             <div>
                 <p>Which teams have suprised you this season? (For good or bad)</p>
-                <div>
-                    <label>
-                        <input name="suprise" value="Arsenal" type="checkbox" class="checkbox-in">
-                        Arsenal
-                    </label>
-                    <label>
-                        <input name="suprise" value="Villa" type="checkbox" class="checkbox-in">
-                        Aston Villa
-                    </label>
-                    <label>
-                        <input name="suprise" value="Bourne" type="checkbox" class="checkbox-in">
-                        Bournemouth
-                    </label>
-                    <label>
-                        <input name="suprise" value="Brentford" type="checkbox" class="checkbox-in">
-                        Brentford
-                    </label>
-                    <label>
-                        <input name="suprise" value="Brighton" type="checkbox" class="checkbox-in">
-                        Brighton
-                    </label>
-                    <label>
-                        <input name="suprise" value="Burley" type="checkbox" class="checkbox-in">
-                        Burnley
-                    </label>
-                    <label>
-                        <input name="suprise" value="Chelsea" type="checkbox" class="checkbox-in">
-                        Chelsea
-                    </label>
-                    <label>
-                        <input name="suprise" value="Palace" type="checkbox" class="checkbox-in">
-                        Crystal Palace
-                    </label>
-                    <label>
-                        <input name="suprise" value="Everton" type="checkbox" class="checkbox-in">
-                        Everton
-                    </label>
-                    <label>
-                        <input name="suprise" value="Leeds" type="checkbox" class="checkbox-in">
-                        Leeds
-                    </label>
-                </div>
-                <div>
-                    <label>
-                        <input name="suprise" value="Leicester" type="checkbox" class="checkbox-in">
-                        Leicester
-                    </label>
-                    <label>
-                        <input name="suprise" value="Man City" type="checkbox" class="checkbox-in">
-                        Man City
-                    </label>
-                    <label>
-                        <input name="suprise" value="Man United" type="checkbox" class="checkbox-in">
-                        Man United
-                    </label>
-                    <label>
-                        <input name="suprise" value="Newcastle" type="checkbox" class="checkbox-in">
-                        Newcastle
-                    </label>
-                    <label>
-                        <input name="suprise" value="Norwich" type="checkbox" class="checkbox-in">
-                        Norwich
-                    </label>
-                    <label>
-                        <input name="suprise" value="Southampton" type="checkbox" class="checkbox-in">
-                        Southampton
-                    </label>
-                    <label>
-                        <input name="suprise" value="Spurs" type="checkbox" class="checkbox-in">
-                        Tottenham
-                    </label>
-                    <label>
-                        <input name="suprise" value="Watford" type="checkbox" class="checkbox-in">
-                        Watford
-                    </label>
-                    <label>
-                        <input name="suprise" value="West Ham" type="checkbox" class="checkbox-in">
-                        West Ham
-                    </label>
-                    <label>
-                        <input name="suprise" value="Wolves" type="checkbox" class="checkbox-in">
-                        Wolves
-                    </label>
+                <div class="all">
+                    <div>
+                        <label>
+                            <input name="suprise" value="Arsenal" type="checkbox" class="checkbox-in">
+                            Arsenal
+                        </label>
+                        <label>
+                            <input name="suprise" value="Villa" type="checkbox" class="checkbox-in">
+                            Aston Villa
+                        </label>
+                        <label>
+                            <input name="suprise" value="Brentford" type="checkbox" class="checkbox-in">
+                            Brentford
+                        </label>
+                        <label>
+                            <input name="suprise" value="Brighton" type="checkbox" class="checkbox-in">
+                            Brighton
+                        </label>
+                        <label>
+                            <input name="suprise" value="Burley" type="checkbox" class="checkbox-in">
+                            Burnley
+                        </label>
+                        <label>
+                            <input name="suprise" value="Chelsea" type="checkbox" class="checkbox-in">
+                            Chelsea
+                        </label>
+                        <label>
+                            <input name="suprise" value="Palace" type="checkbox" class="checkbox-in">
+                            Crystal Palace
+                        </label>
+                        <label>
+                            <input name="suprise" value="Everton" type="checkbox" class="checkbox-in">
+                            Everton
+                        </label>
+                        <label>
+                            <input name="suprise" value="Leeds" type="checkbox" class="checkbox-in">
+                            Leeds
+                        </label>
+                        <label>
+                            <input name="suprise" value="Leicester" type="checkbox" class="checkbox-in">
+                            Leicester
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input name="suprise" value="Lpool" type="checkbox" class="checkbox-in">
+                            Liverpool
+                        </label>
+                        <label>
+                            <input name="suprise" value="Man City" type="checkbox" class="checkbox-in">
+                            Man City
+                        </label>
+                        <label>
+                            <input name="suprise" value="Man United" type="checkbox" class="checkbox-in">
+                            Man United
+                        </label>
+                        <label>
+                            <input name="suprise" value="Newcastle" type="checkbox" class="checkbox-in">
+                            Newcastle
+                        </label>
+                        <label>
+                            <input name="suprise" value="Norwich" type="checkbox" class="checkbox-in">
+                            Norwich
+                        </label>
+                        <label>
+                            <input name="suprise" value="Southampton" type="checkbox" class="checkbox-in">
+                            Southampton
+                        </label>
+                        <label>
+                            <input name="suprise" value="Spurs" type="checkbox" class="checkbox-in">
+                            Tottenham
+                        </label>
+                        <label>
+                            <input name="suprise" value="Watford" type="checkbox" class="checkbox-in">
+                            Watford
+                        </label>
+                        <label>
+                            <input name="suprise" value="West Ham" type="checkbox" class="checkbox-in">
+                            West Ham
+                        </label>
+                        <label>
+                            <input name="suprise" value="Wolves" type="checkbox" class="checkbox-in">
+                            Wolves
+                        </label>
+                    </div>
                 </div>
             </div>
-            <div>
-                <p>What has been your game of the season?</p>
-                <select id="dropdown3" name="GOTS" required>
+            <p>What was your game of the season?</p>
+            <div class="all">
+                <select class="control" id="dropdown3" name="GOTS" required>
                     <option disabled selected value>Game</option>
                     <option value="V W">Aston Villa 2-3 Wolves</option>
                     <option value="C T">Manchester City 2-3 Tottenham</option>
@@ -176,13 +184,13 @@
                     <option value="U T">Manchester United 3-2 Tottenham</option>
                 </select>
             </div>
-            <div>
-                <p>Any comments?</p>
-                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here" ></textarea>
+            <p>Any comments?</p>
+            <div class="all">
+                <textarea id="comments" class="input-text" name="comment" placeholder="Enter your comment here" ></textarea>
             </div>
-            <div>
+            <div class="all">
                 <button type="submit" id="submit" class="submit-button">Submit</button>
-              </div>
+            </div>
         </form>
     </div>
     
