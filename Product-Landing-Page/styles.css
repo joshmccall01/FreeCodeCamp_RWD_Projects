@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+body {
+  background: wheat;
+  font-family: 'Merriweather';
+  font-size: 16pt;
+}
+
+#header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 3em;
+  background: wheat;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  height: 5em;
+  width: 100%;
+}
+
+img {
+  width: 8em;
+  height: auto;
+}
+
+nav {
+  padding: 0;
+  width: 100%;
+}
+
+nav ul {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  vertical-align: middle;
+}
+
+nav ul .nav-link {
+  text-decoration: none;
+  padding-right: 1.5em;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+#form-sty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 2em;
+}
+
+#form input[type="email"] {
+  max-width: 200px;
+  width: 100%;
+}
+
+.go-button {
+  background: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  height: 1.8em;
+  font-size: 12pt;
+  margin-top: 0.5em;
+}
+
+#benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0;
+}
+
+#benefits h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#benefits iframe {
+  width: 40%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#how-to h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#how-to p {
+  text-align: center;
+}
+
+#price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 2em 0;
+}
+
+#price .options {
+  border: 2px solid black;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#price .options .weight {
+  font-size: 22pt;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 1pt solid black;
+}
+
+#price .options h3 {
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+#price .options .buy {
+  background: black;
+  color: white;
+  font-size: 16pt;
+}
+
+#price .options ul {
+  text-align: left;
+}
+
+@media (min-width: 800px) {
+  ol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    line-height: 1.5em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

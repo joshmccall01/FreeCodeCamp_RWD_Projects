@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    background: wheat;
+    font-family: 'Merriweather';
+    font-size: 16pt;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3em;
+    background: wheat;
+    margin: 0;
+    align-items: center;
+    top: 0;
+    height: 5em;
+    width: 100%;
+}
+
+img {
+    width: 8em;
+    height: auto;
+}
+
+nav {
+    padding: 0;
+    width: 100%;
+    ul {
+        width: 30vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        vertical-align: middle;
+        .nav-link {
+            text-decoration: none;
+            padding-right: 1.5em;
+            font-size: 14pt;
+            font-weight: bold;
+        }
+    }
+}
+
+a {
+    color: black;
+}
+
+#form-sty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 2em;
+}
+
+
+#form input[type="email"] {
+    max-width: 200px;
+    width: 100%;
+}
+
+.go-button {
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: 1.8em;
+    font-size: 12pt;
+    margin-top: 0.5em;
+}
+
+#benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    iframe {
+        width: 40%;
+        align-self: center;
+    }
+}
+
+#how-to {
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+#price {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em 0;
+    .options {
+        border: 2px solid black;
+        padding: 0.5em;
+        text-align: center;
+        .weight {
+            font-size: 22pt;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-bottom: 1pt solid black;
+        }
+        h3 {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+        }
+        .buy {
+            background: black;
+            color: white;
+            font-size: 16pt;
+        }
+        ul {
+            text-align: left;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    ol {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5em;
+    }
+}
